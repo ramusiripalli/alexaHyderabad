@@ -1,1 +1,1 @@
-# alexaHyderabad
+# Skeleton project for Swagger

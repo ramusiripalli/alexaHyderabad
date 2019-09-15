@@ -36,7 +36,7 @@ response.titleText = "Update For Hyderabad Weather";
     var day4weather = result[0].forecast[4].skytextday;
     console.log("fifth day weather " + day4weather);
     response.redirectionUrl = "http://ramusiripalli.xyz";
-    response.mainText = "Hello from weather. todays weather is expected to be " + day0weather + ".Tomorrows weather will be " +day1weather + ".third day weather will be " + day2weather + " . fourth day weather will be " + day3weather + "fifth day weather will be " + day4weather;
+    response.mainText = "Hello from weather. Todays weather in Hyderabad is  expected to be " + day0weather + ". Tomorrows weather in Hyderabad will be expected to be " +day1weather + ". Third day weather in Hyderabad will be Expected to be  " + day2weather + " . Fourth day weather in Hyderabad will be  expected to be" + day3weather + ". Fifth day weather in Hyderabad will be expected to be " + day4weather;
     res.json(response);
     }
    
